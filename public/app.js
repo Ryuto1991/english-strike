@@ -21,7 +21,8 @@ function renderSupport(today) {
   supportListNode.innerHTML = "";
   [
     "Say it in your own English first.",
-    `Prepare a natural version for ${today.business_context}.`,
+    `Prepare a short, usable line for ${today.business_context}.`,
+    "Check the natural, concise, and polite versions after your attempt.",
     "Then read your chosen version aloud three times.",
     "At night, mark whether you reused it in real work."
   ].forEach((item) => {
