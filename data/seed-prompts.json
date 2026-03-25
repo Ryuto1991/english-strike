@@ -1,0 +1,60 @@
+{
+  "prompts": [
+    {
+      "id": "es-001",
+      "theme": "status update",
+      "focus": "concise reporting",
+      "japanese": "この件は予定通り進んでいて、明日までに第一版を共有できます。",
+      "business_context": "project update",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    },
+    {
+      "id": "es-002",
+      "theme": "delay handling",
+      "focus": "owning blockers clearly",
+      "japanese": "確認に想定より時間がかかっているので、提出は明日の午後になります。",
+      "business_context": "deadline risk",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    },
+    {
+      "id": "es-003",
+      "theme": "decision proposal",
+      "focus": "making a recommendation",
+      "japanese": "今週は新機能追加よりも、離脱率の高い導線の改善を優先したいです。",
+      "business_context": "priority discussion",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    },
+    {
+      "id": "es-004",
+      "theme": "asking for alignment",
+      "focus": "explicit confirmation",
+      "japanese": "方向性に問題がなければ、この案で実装を進めます。",
+      "business_context": "alignment check",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    },
+    {
+      "id": "es-005",
+      "theme": "meeting follow-up",
+      "focus": "action ownership",
+      "japanese": "今日の会議の要点をまとめたので、抜け漏れがあれば教えてください。",
+      "business_context": "meeting summary",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    },
+    {
+      "id": "es-006",
+      "theme": "stakeholder communication",
+      "focus": "tradeoff explanation",
+      "japanese": "速度を優先するならこの案ですが、保守性を重視するなら別案が適しています。",
+      "business_context": "tradeoff explanation",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    },
+    {
+      "id": "es-007",
+      "theme": "requesting input",
+      "focus": "specific ask",
+      "japanese": "この仕様で見落としているリスクがあれば、先に洗い出したいです。",
+      "business_context": "design review",
+      "variants": ["natural", "concise", "polite", "slack", "meeting"]
+    }
+  ]
+}

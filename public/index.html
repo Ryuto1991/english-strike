@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Strike</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">English Strike V1</p>
+        <h1>Business English that actually comes out under pressure.</h1>
+        <p class="lede">
+          Daily recall. Immediate feedback. Spoken repetition. Real-world reuse.
+        </p>
+      </section>
+
+      <section class="panel" id="today-panel">
+        <div class="panel-header">
+          <h2>Today's strike</h2>
+          <p id="run-date">Loading daily pack...</p>
+        </div>
+        <div class="card">
+          <p class="label">Japanese</p>
+          <p class="japanese" id="today-japanese"></p>
+          <p class="meta" id="today-meta"></p>
+        </div>
+        <div class="card">
+          <p class="label">Your recall</p>
+          <textarea id="attempt" rows="4" placeholder="Write your English before revealing support."></textarea>
+          <button id="reveal-button" type="button">Reveal support</button>
+        </div>
+        <div class="card hidden" id="support-card">
+          <p class="label">Support</p>
+          <ul id="support-list"></ul>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Review queue</h2>
+          <p>1 / 3 / 7 day spacing</p>
+        </div>
+        <div id="review-list" class="review-grid"></div>
+      </section>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+  </html>
