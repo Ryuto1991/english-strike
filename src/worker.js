@@ -4,6 +4,11 @@ export default {
   },
 
   async scheduled(event, env, ctx) {
+    if (!env.DAILY_PACK_WEBHOOK_URL || !env.DAILY_PACK_WEBHOOK_TOKEN) {
+      console.log("Skipping daily refresh webhook because webhook config is missing.");
+      return;
+    }
+
     const response = await fetch(env.DAILY_PACK_WEBHOOK_URL, {
       method: "POST",
       headers: {
